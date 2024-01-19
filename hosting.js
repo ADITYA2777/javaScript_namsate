@@ -1,14 +1,5 @@
 
 
-getName()
-console.log(x);
-console.log(getName);
-
-let x = 7 
-
-function getName() {
-}
-
-// const getName = () => {
-//     console.log("namste");
-// }
+console.log(a);
+let a = 10;
+var b = 2000;
