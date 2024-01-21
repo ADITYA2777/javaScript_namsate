@@ -107,3 +107,10 @@ async function greet()
 greet()
     .then((val) =>{ console.log(val)
 })
+async function greet()
+
+{ return Promise.resolve("heooo") }
+
+greet()
+    .then((val) =>{ console.log(val)
+})
