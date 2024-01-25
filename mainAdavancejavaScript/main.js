@@ -1,16 +1,16 @@
-// function sum(a,b,c) {
-//     return a + b + c
-// }
-// console.log(sum(2,3,5));
-// function currey(ad) {
-//     return function (a) {
-//         return function (b) {
-//             return function (c) {
-//                 return ad(a, b, c)
-//             }
-//         }
-//     }
-// }
+function sum(a,b,c) {
+    return a + b + c
+}
+console.log(sum(2,3,5));
+function currey(ad) {
+    return function (a) {
+        return function (b) {
+            return function (c) {
+                return ad(a, b, c)
+            }
+        }
+    }
+}
 
 const currySum = currey(sum)
 console.log(currySum(2)(3)(5));
